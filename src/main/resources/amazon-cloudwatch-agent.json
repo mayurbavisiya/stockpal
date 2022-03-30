@@ -1,0 +1,17 @@
+{
+  "logs": {
+    "logs_collected": {
+      "files": {
+        "collect_list": [
+          {
+            "file_path": "/home/ec2-user/logs/stockPal.log",
+            "log_group_name": "blog-aws-java-logging",
+            "log_stream_name": "blog-aws-java-logging-{instance_id}.log",
+            "timestamp_format": "%Y-%m-%d %H:%M:%S.%f",
+            "multi_line_start_pattern": "{timestamp_format}"
+          }
+        ]
+      }
+    }
+  }
+}
